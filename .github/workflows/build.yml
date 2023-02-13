@@ -7,4 +7,4 @@ jobs:
       with:
         profile: bcm27xx-bcm2711
         openwrt-version: 22.03.3
-        packages: -ppp podman
+        packages: btrfs-progs conmon irqbalance kmod-r8169 kmod-mmc kmod-usb-dwc2 luci luci-app-sqm podman nextdns slirp4netns -iwinfo -kmod-sound-arm-bcm2835 -kmod-sound-core -ppp -ppp-mod-pppoe -wpad-basic-wolfssl
